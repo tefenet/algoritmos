@@ -44,4 +44,7 @@ los archivos de prueba son matriz.txt, matriz2500, damero_5000, y 500_alterna.
 
 ### OcurrenceCounter
 cuenta cuantas veces se repite un patrón de texto dentro de otro texto por ejemplo, el patrón 'aa' esta presente 4 veces en 'aaabcdoijkjnaaa'
-no tiene archivo de prueba. ni recibe parametros, está en proceso.
+no tiene archivo de prueba.
+recibe como parametro el texto base, sobre el cual se buscaré un patrón.
+luego se ingresa por interfaz de comandos la cadena de texto a contar.
+retorna la cuenta.
