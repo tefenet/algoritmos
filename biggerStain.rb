@@ -29,7 +29,7 @@ class StainFinder
       new_row = pixel.row + Y_MOVE[position]
       new_column = pixel.column + X_MOVE[position]
       if new_row < @height && new_row >= 0 && new_column >= 0 && new_column < @width
-        my_neighbours.append(Pixel.new(new_row, new_column))
+        my_neighbours.append(Chip.new(new_row, new_column))
       end
     end
     my_neighbours
@@ -54,10 +54,10 @@ class StainFinder
       current_pixel = remaining_pixels.shift
       stainSize += 1
       get_neighbours(current_pixel).select do |neighbour_pixel|
-        are_the_same_color(neighbour_pixel, current_pixel) and !is_visited(neighbour_pixel)
+        are_the_same_color(neighbour_pixel, current_pixel) and !visited?(neighbour_pixel)
       end
                                    .each do |neighbour_pixel|
-        set_visited(neighbour_pixel)
+        visit(neighbour_pixel)
         remaining_pixels.append(neighbour_pixel)
       end
     end
@@ -80,7 +80,7 @@ class StainFinder
         next if @visited[row][column]
 
         @visited[row][column] = true
-        stainSize = bfs(Pixel.new(row, column))
+        stainSize = bfs(Chip.new(row, column))
         if stainSize > biggerStain.size
           biggerStain.size = stainSize
           biggerStain.color = @input[row][column]
@@ -92,7 +92,7 @@ class StainFinder
 end
 
 def findMaxStainOnBoard(board, caseNumber)
-  biggerStain = StainFinder.new(board).computeBiggerStain
+  biggerStain = StainFinder.new(board).count_stains
   puts " #{caseNumber}. (\"#{biggerStain.color.chr}\",#{biggerStain.size})"
 end
 
