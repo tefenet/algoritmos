@@ -11,14 +11,14 @@ etc.
 
 ### palindrome
 este algoritmo recibe un numero entero y devuelve el palindromo mayor mas próximo.
-como parametro de entrada es solo el numero, no hay archivo de prueba
+el script no espera parametro de entrada, el numero se ingresa por consola, no hay archivo de prueba
 ### window_binary
 Hay​ ​N​ ​ventanas​ ​pegadas​ ​en​ ​una​ ​casa,​ ​una​ ​al​ ​lado​ ​de​ ​la​ ​otra.​ ​ ​En​ ​cada​ ​ventana​ ​se​ ​puede​ ​poner cortina​ ​o​ ​no.
 ​De​ ​todas​ ​las​ ​posibles​ ​combinaciones​ ​¿En​ ​cuántas​ ​hay​ ​3​ ​ventanas​ ​seguidas​ ​con cortina?
-la. Especificación​ ​Input/Output
-i La​ ​input​ ​de​ ​caso​ es ​una​ ​sola​ ​línea​ ​con​ ​el​ ​número​ ​de​ ​ventanas
-ii. La​ ​output​ ​es​ ​una​ ​sola​ ​línea​ ​por​ ​caso​ ​con​ ​la​ ​cantidad​ ​de​ ​combinaciones
-el archivo de prueba se llama windows_test
+la. <br /> Especificación​ ​Input/Output \
+i La​ ​input​ ​de​ ​caso​ es ​una​ ​sola​ ​línea​ ​con​ ​el​ ​número​ ​de​ ​ventanas \
+ii. La​ ​output​ ​es​ ​una​ ​sola​ ​línea​ ​por​ ​caso​ ​con​ ​la​ ​cantidad​ ​de​ ​combinaciones \
+el archivo de prueba se llama windows_test \
 ### number_translator
 Dado un numero de 12 cifras máximo, este algoritmo devuelve un texto que diga el numero en palabras en español.
 ejemplo
