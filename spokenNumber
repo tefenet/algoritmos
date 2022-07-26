@@ -1,14 +1,14 @@
-# case 0
+#case 0
 0
-# case 1
+#case 1
 1
-# case 2
+#case 2
 999999
-# case 3
+#case 3
 100001
-# case 4
+#case 4
 1000
-# case 5
+#case 5
 150043
 #case 6
 20
@@ -32,5 +32,3 @@
 200
 #case 16
 330
-#case 17
-330333333333333333333

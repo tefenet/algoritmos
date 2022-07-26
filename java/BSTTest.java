@@ -10,7 +10,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 
-public class bstTest {
+public class BSTTest {
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final ByteArrayOutputStream errContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;

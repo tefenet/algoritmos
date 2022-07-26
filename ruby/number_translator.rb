@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+#!/usr/bin/ruby
 # frozen_string_literal:false
 
 # speak 3 digits
