@@ -13,7 +13,7 @@ class StainFinder
     @visited = Array.new(@height) { Array.new(@width) { false } }
   end
 
-  # Pixel class represent a poxel in the board
+  # Pixel class represent a pixel in the board
   class Pixel
     attr_reader :row, :column
 

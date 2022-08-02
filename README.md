@@ -1,6 +1,6 @@
-# Algoritmos varios en Ruby
+# Algoritmos en ruby y java
 
-## explicaion general
+## explicacion general
 cada Algoritmo esta resuelto en un solo archivo, dependiendo la naturaleza del problema la solución puede estar orientada a objetos o no.
 cada archivo es un ejecutable para linux, puede modificarse el encabezado para otras plataformas.
 al ejecutar el archivo se pasa como argumento otro archivo que contiene casos de prueba, la salida es siempre enumerando cada caso. 
@@ -48,3 +48,7 @@ no tiene archivo de prueba.
 recibe como parametro el texto base, sobre el cual se buscaré un patrón.
 luego se ingresa por interfaz de comandos la cadena de texto a contar.
 retorna la cuenta.
+
+### ArraySearchKSum
+given an integer array, find the first numbers in an array that sum K, an Integer number.
+receive an array like '1 2 3', and a number, returns the expected array of indexes
